@@ -1,0 +1,16 @@
+.project_container {
+    border-radius: 10px;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    padding: 1em;
+    transition: 200ms;
+}
+
+.icon {
+    background-color: black;
+    border-radius: 5px;
+    padding: 0.4em;
+    width: 3em;
+    height: 3em;
+}
