@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/ghpfp.png" type="image/png">
-    
+
     <title>AzeezDa's Portfolio</title>
     <style>
         :root {
@@ -19,6 +19,7 @@
             font-family: archivoblack;
             src: url(./archivoblack_regular.ttf);
         }
+
         #name {
             font-family: archivoblack, sans-serif;
             font-size: 3em;
@@ -28,61 +29,98 @@
 
 <body>
     <main class="container">
-        <h1 id="name" style = "margin-bottom: 0;">Azeez Daoud</h1>
-        <a target="_blank" href="https://github.com/AzeezDa" ><img src="./images/github-mark-white.svg" alt="github icon" class = "icon"></a>
-        <a target="_blank" href="https://www.linkedin.com/in/azeez-daoud" ><img src="./images/In-white.png" alt="linkedin icon" class = "icon"></a>
-        <a target="_blank" href="https://www.youtube.com/@noicestnoice" ><img src="./images/YT.png" alt="youtube icon" class = "icon"></a>
+        <h1 id="name" style="margin-bottom: 0;">Azeez Daoud</h1>
+        <a target="_blank" href="https://github.com/AzeezDa"><img src="./images/github-mark-white.svg" alt="github icon"
+                class="icon"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/azeez-daoud"><img src="./images/In-white.png"
+                alt="linkedin icon" class="icon"></a>
+        <a target="_blank" href="https://www.youtube.com/@noicestnoice"><img src="./images/YT.png" alt="youtube icon"
+                class="icon"></a>
 
-        <p>I am a Computer Science Engineering Student at <a target="_blank" href="https://www.kth.se">KTH Royal Institute of Technology</a> in Stockholm. I enjoy problem-solving, programming, mathematics and music.</p>
+        <p>I am a Computer Science Engineering Student at <a target="_blank" href="https://www.kth.se">KTH Royal
+                Institute of Technology</a> in Stockholm. I enjoy problem-solving, programming, mathematics and music.
+        </p>
 
-        <p>In my free time I usually work on fun programming projects which I upload to my <a target="_blank" href="https://github.com/AzeezDa">GitHub</a>. I also like to play video games, read books and play music (mostly experimenting with digital synths).</p>
+        <p>In my free time I usually work on fun programming projects which I upload to my <a target="_blank"
+                href="https://github.com/AzeezDa">GitHub</a>. I also like to play video games, read books and play music
+            (mostly experimenting with digital synths).</p>
 
         <h2>Some Programming Projects</h2>
-        
+
         <div class="grid">
-            <section class="container project_container" id = eqsolver>
+            <section class="container project_container" id=eqsolver>
                 <h4><a target="_blank" href="https://github.com/AzeezDa/eqsolver">Eqsolver</a></h4>
-                <p><em>A Numerical Equation Solver Library for Rust.</em> This library includes solvers for non-linear system of equations using e.g. Newton-Raphson's method and Gauss-Newton's algorithm. It also includes a solver for systems of ordinary differential equations.</p>
+                <p><em>A Numerical Equation Solver Library for Rust.</em> This library includes solvers for non-linear
+                    system of equations using e.g. Newton-Raphson's method and Gauss-Newton's algorithm. It also
+                    includes a solver for systems of ordinary differential equations.</p>
             </section>
             <section class="container project_container">
                 <h4><a target="_blank" href="https://github.com/AzeezDa/Planets">Planets</a></h4>
-                <p><em>A C++ simulation of Newton's Law of Gravitation.</em> This simulator uses SFML to visualise the motion of objects in space. The objects in the simulation can be described via a Lua Script which is passed into the simulator. Here is a <a target = "_blank", href="https://youtu.be/z1mdG82C3kY">video</a> on my YouTube channel that shows the results.</p>
+                <p><em>A C++ simulation of Newton's Law of Gravitation.</em> This simulator uses SFML to visualise the
+                    motion of objects in space. The objects in the simulation can be described via a Lua Script which is
+                    passed into the simulator. Here is a <a target="_blank" ,
+                        href="https://youtu.be/z1mdG82C3kY">video</a> on my YouTube channel that shows the results.</p>
             </section>
         </div>
         <div class="grid">
             <section class="container project_container">
                 <h4><a target="_blank" href="https://github.com/AzeezDa/neophoebe">NEOPHOEBE</a></h4>
-                <p><em>A Rust simulation of Disease Spread with a Python-based interface.</em> This is a command-line interfaced program that takes a file of parameters and simulates a disease spread based on those parameters then outputs the result as a .csv file, a figure or both.</p>
+                <p><em>A Rust simulation of Disease Spread with a Python-based interface.</em> This is a command-line
+                    interfaced program that takes a file of parameters and simulates a disease spread based on those
+                    parameters then outputs the result as a .csv file, a figure or both.</p>
             </section>
             <section class="container project_container">
                 <h4><a target="_blank" href="https://github.com/AzeezDa/fortis">Fortis</a></h4>
-                <p><em>An assembly language and emulator for a small computer.</em> The computer has 4-bit instructions, 8-bit registers and 12-bit addressing. The assembler is written in Haskell, the emulator is written in Rust and both the assembler and the emulator are interfaced with a Python script.</p>
+                <p><em>An assembly language and emulator for a small computer.</em> The computer has 4-bit instructions,
+                    8-bit registers and 12-bit addressing. The assembler is written in Haskell, the emulator is written
+                    in Rust and both the assembler and the emulator are interfaced with a Python script.</p>
             </section>
         </div>
         <div class="grid">
             <section class="container project_container">
                 <h4><a target="_blank" href="https://github.com/AzeezDa/ceetle">Ceetle</a></h4>
-                <p><em>A Computational Tree Logic (CTL) Semantic Verifier.</em> This is a library that provides the ability to define CTL models and verify the validity of formulas on these models. Most of the verification algorithms use modified version of a Breadth-First Search on graphs.</p>
+                <p><em>A Computational Tree Logic (CTL) Semantic Verifier.</em> This is a library that provides the
+                    ability to define CTL models and verify the validity of formulas on these models. Most of the
+                    verification algorithms use modified version of a Breadth-First Search on graphs.</p>
             </section>
             <section class="container project_container">
                 <h4><a target="_blank" href="https://github.com/AzeezDa/is1500-projekt">IS1500 Project</a></h4>
-                <p><em>A game built on an Uno32 w/ Basic I/O Shield.</em> This was a project of the <a target="_blank" href="https://www.kth.se/student/kurser/kurs/IS1500"> IS1500 Computer Organization and Components</a> course at KTH Royal Institute of Technology. This project was made together with <a target="_blank" href="https://github.com/Herdi2">Herdi2</a>.</p>
+                <p><em>A game built on an Uno32 w/ Basic I/O Shield.</em> This was a project of the <a target="_blank"
+                        href="https://www.kth.se/student/kurser/kurs/IS1500"> IS1500 Computer Organization and
+                        Components</a> course at KTH Royal Institute of Technology. This project was made together with
+                    <a target="_blank" href="https://github.com/Herdi2">Herdi2</a>.
+                </p>
             </section>
         </div>
         <div class="grid">
             <section class="container project_container">
                 <h4><a target="_blank" href="https://github.com/AzeezDa/DD1354_Project">DD1354 Project</a></h4>
-                <p>A Unity Engine simulation of coupled spring-mass system based on the force-based and the position-based dynamics models. This project was a part of the <a target="_blank" href="https://www.kth.se/student/kurser/kurs/DD1354">DD1354 Models and Simulation</a> course at KTH Royal Institute of Technology. The project blog can be read <a target="_blank" href="https://azeezda.github.io/DD1354_Project/">here</a>.</p>
+                <p><em>A Unity Engine simulation of coupled spring-mass system based on the force-based and the
+                        position-based dynamics models.</em> This project was a part of the <a target="_blank"
+                        href="https://www.kth.se/student/kurser/kurs/DD1354">DD1354 Models and Simulation</a> course at
+                    KTH Royal Institute of Technology. The project blog can be read <a target="_blank"
+                        href="https://azeezda.github.io/DD1354_Project/">here</a>.</p>
             </section>
             <section class="container project_container">
-                <h4><a target="_blank" href="https://github.com/AzeezDa/csvgrapher">CSVGrapher</a></h4>
-                <p><em>A Python-based GUI application built with Qt5, Plotly and Pandas to visualise CSV files.</em> I built this application after a request for a tool that helps visualise data in CSV files. It allows the user to query data and plot it as pie, line or bar charts with different customisations.</p>
+                <h4><a target="_blank" href="https://github.com/AzeezDa/markov_text">Markov Text</a></h4>
+                <p><em>A text generator based on higher-order Markov chains.</em> This is a C++ terminal tool that can
+                    construct a higher-order Markov chain then generate text based on it. The constructed chain is saved
+                    on disk, making the text generation very fast.</p>
             </section>
         </div>
         <div class="grid">
             <section class="container project_container">
                 <h4><a target="_blank" href="https://github.com/AzeezDa/JavaScriptOne/">JavaScriptOne</a></h4>
-                <p><em>A Small Collection of Small JavaScript Projects.</em> I use this repository to put small JavaScript projects and experiments such as simple colour games or a piano with a few key. Check out the deployment in this <a target="_blank" href="https://azeezda.github.io/JavaScriptOne/">link</a>.</p>
+                <p><em>A Small Collection of Small JavaScript Projects.</em> I use this repository to put small
+                    JavaScript projects and experiments such as simple colour games or a piano with a few key. Check out
+                    the deployment in this <a target="_blank" href="https://azeezda.github.io/JavaScriptOne/">link</a>.
+                </p>
+            </section>
+            <section class="container project_container">
+                <h4><a target="_blank" href="https://github.com/AzeezDa/csvgrapher">CSVGrapher</a></h4>
+                <p><em>A Python-based GUI application built with Qt5, Plotly and Pandas to visualise CSV files.</em> I
+                    built this application after a request for a tool that helps visualise data in CSV files. It allows
+                    the user to query data and plot it as pie, line or bar charts with different customisations.</p>
             </section>
         </div>
     </main>
